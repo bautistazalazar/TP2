@@ -7,22 +7,25 @@
     <title>Ejercicio 6</title>
   </head>
   <body>
-    <label>Nombre</label><br />
-    <input type="text" id="nombre" /><br /><br />
-    <label>Apellido</label><br />
-    <input type="text" id="apellido" /><br /><br />
-    <label>Edad</label><br />
-    <input type="number" id="edad" /><br /><br />
-    <label>Altura</label><br />
-    <input type="number" id="altura" /><br /><br />
-    <label>Correo</label><br />
-    <input type="email" id="correo" /><br /><br />
-    <button onclick="validar()">ENVIAR</button><br />
-    <p id="resultado"></p>
-    <p id="validar1"></p>
-    <p id="validar2"></p>
-    <p id="validar3"></p>
-    <p id="validar4"></p>
+    <form>
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" />
+      <label for="apellido">Apellido</label>
+      <input type="text" id="apellido" />
+      <label for="edad">Edad</label>
+      <input type="number" id="edad" />
+      <label for="altura">Altura</label>
+      <input type="number" id="altura" />
+      <label for="correo">Correo</label>
+      <input type="email" id="correo" />
+      <button type="button" onclick="validar()">ENVIAR</button>
+      <p id="resultado"></p>
+      <p id="validar1"></p>
+      <p id="validar2"></p>
+      <p id="validar3"></p>
+      <p id="validar4"></p>
+    </form>
     <script src="./script.js"></script>
   </body>
 </html>
+
